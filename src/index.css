@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -6,32 +6,32 @@
 
 @layer base {
   :root {
-    /* Folio Lilac & Ink Theme */
-    --background: 270 20% 99%;
-    --foreground: 270 63% 6%;
-    --surface: 270 20% 96%;
-    --ink: 270 63% 6%;
-    --iris: 263 70% 42%;
-    --lilac: 270 89% 85%;
-    --lime: 82 85% 80%;
-    --muted-foreground: 270 8% 43%;
+    /* Л СПОРТ — Orange & Charcoal Theme */
+    --background: 30 20% 99%;
+    --foreground: 20 15% 8%;
+    --surface: 30 15% 96%;
+    --ink: 20 15% 8%;
+    --iris: 25 95% 50%;
+    --lilac: 30 100% 85%;
+    --lime: 25 100% 70%;
+    --muted-foreground: 20 8% 45%;
 
-    --card: 270 20% 96%;
-    --card-foreground: 270 63% 6%;
-    --popover: 270 20% 99%;
-    --popover-foreground: 270 63% 6%;
-    --primary: 263 70% 42%;
-    --primary-foreground: 270 20% 99%;
-    --secondary: 270 20% 96%;
-    --secondary-foreground: 270 63% 6%;
-    --muted: 270 20% 96%;
-    --accent: 270 89% 85%;
-    --accent-foreground: 270 63% 6%;
+    --card: 30 15% 96%;
+    --card-foreground: 20 15% 8%;
+    --popover: 30 20% 99%;
+    --popover-foreground: 20 15% 8%;
+    --primary: 25 95% 50%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 30 15% 94%;
+    --secondary-foreground: 20 15% 8%;
+    --muted: 30 15% 94%;
+    --accent: 30 100% 85%;
+    --accent-foreground: 20 15% 8%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
-    --border: 270 15% 92%;
-    --input: 270 15% 92%;
-    --ring: 263 70% 42%;
+    --border: 30 15% 90%;
+    --input: 30 15% 90%;
+    --ring: 25 95% 50%;
 
     --radius: 0.75rem;
 
@@ -83,7 +83,7 @@
 
   body {
     @apply bg-background text-foreground;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
   }
 }
 
@@ -94,7 +94,8 @@
 
 /* Serrated ticket edge */
 .ticket-edge {
-  mask-image: radial-gradient(circle at 0 50%, transparent 8px, black 8px),
+  mask-image:
+    radial-gradient(circle at 0 50%, transparent 8px, black 8px),
     radial-gradient(circle at 100% 50%, transparent 8px, black 8px);
   mask-size: 51% 100%;
   mask-position: left, right;
