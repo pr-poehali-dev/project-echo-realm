@@ -78,7 +78,7 @@ export function ScheduleSection() {
           viewport={{ once: true }}
           transition={{ delay: 0.1 }}
         >
-          Расписание <em className="italic text-primary">апрель 2026</em>
+          Расписание <em className="italic text-primary">май 2026</em>
         </motion.h2>
 
         {/* Day tabs */}
