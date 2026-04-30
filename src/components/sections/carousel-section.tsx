@@ -15,7 +15,7 @@ export function CarouselSection() {
   const items = [...portfolioItems, ...portfolioItems]
 
   return (
-    <section className="bg-primary py-24 overflow-hidden">
+    <section id="club" className="bg-primary py-24 overflow-hidden">
       <div className="max-w-6xl mx-auto px-6 mb-12">
         <motion.h2
           className="text-3xl md:text-4xl font-serif text-primary-foreground"
