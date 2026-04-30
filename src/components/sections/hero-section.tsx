@@ -77,7 +77,7 @@ export function HeroSection() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.8 }}
       >
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif text-center text-primary mix-blend-difference">
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif text-center text-primary mix-blend-difference" style={{WebkitTextStroke: "1.5px #14120e"}}>
           Л СПОРТ — <em className="italic">твой клуб</em>.
         </h1>
       </motion.div>
