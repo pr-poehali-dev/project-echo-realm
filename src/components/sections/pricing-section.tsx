@@ -20,7 +20,6 @@ const subscriptions = [
   {
     name: "Чемпион",
     description: "Полный доступ: зал + СПА + групповые",
-    popular: true,
     prices: [
       { label: "1 месяц", price: "6 000 ₽" },
       { label: "6 месяцев", price: "30 000 ₽" },
