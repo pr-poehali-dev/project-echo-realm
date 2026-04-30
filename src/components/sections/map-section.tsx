@@ -34,7 +34,7 @@ export function MapSection() {
             transition={{ duration: 0.6 }}
           >
             <iframe
-              src="https://yandex.ru/map-widget/v1/?ll=68.970000%2C57.153000&z=16&pt=68.970276,57.153164,pm2orangel"
+              src="https://yandex.ru/map-widget/v1/?ll=68.96560%2C57.14970&z=17&pt=68.96560,57.14970,pm2orangel&text=Тюмень+ул+Коммуны+22к1"
               width="100%"
               height="420"
               style={{ border: 0, display: "block" }}
@@ -57,8 +57,8 @@ export function MapSection() {
               </div>
               <div>
                 <p className="font-medium text-foreground text-sm mb-1">Адрес</p>
-                <p className="text-muted-foreground text-sm">г. Тюмень, ул. Коммуны 22, стр. 1, 3 этаж</p>
-                <p className="text-muted-foreground text-sm">Индекс: 625003</p>
+                <p className="text-muted-foreground text-sm">г. Тюмень, ул. Коммуны 22к1, 3 этаж</p>
+                <p className="text-muted-foreground text-sm">Стадион «Геолог»</p>
               </div>
             </div>
 
@@ -89,7 +89,7 @@ export function MapSection() {
             </div>
 
             <a
-              href="https://yandex.ru/maps/?text=Тюмень+ул+Коммуны+22+стр+1"
+              href="https://yandex.ru/maps/?text=Тюмень+ул+Коммуны+22к1&ll=68.96560,57.14970&z=17"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full py-3 px-6 rounded-xl font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-colors text-center text-sm"
