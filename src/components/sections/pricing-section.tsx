@@ -11,10 +11,10 @@ const plans = [
   },
   {
     name: "Премиум",
-    price: "6 500",
+    price: "6 000",
     period: " руб/мес",
     description: "Полный доступ к клубу",
-    features: ["Безлимитные посещения", "Тренажёрный зал", "Групповые программы", "СПА-зона: бассейн, сауна, хаммам", "Персональные тренировки"],
+    features: ["Безлимитные посещения", "Тренажёрный зал", "Групповые программы", "СПА-зона: бассейн, сауна, хаммам"],
     popular: true,
   },
 ]
@@ -33,11 +33,11 @@ export function PricingSection() {
           <p className="text-muted-foreground mt-4 max-w-md mx-auto">Абонемент на любой образ жизни — от тренажёрного зала до полного спа-опыта.</p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto items-stretch">
           {plans.map((plan, i) => (
             <motion.div
               key={i}
-              className={`relative bg-background rounded-xl p-8 ticket-edge ${plan.popular ? "ring-2 ring-primary" : ""}`}
+              className={`relative bg-background rounded-xl p-8 ticket-edge flex flex-col ${plan.popular ? "ring-2 ring-primary" : ""}`}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
