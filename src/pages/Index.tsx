@@ -6,6 +6,7 @@ import { FeaturesSection } from "@/components/sections/features-section"
 import { CarouselSection } from "@/components/sections/carousel-section"
 import { ScheduleSection } from "@/components/sections/schedule-section"
 import { PricingSection } from "@/components/sections/pricing-section"
+import { TrialSection } from "@/components/sections/trial-section"
 import { FooterSection } from "@/components/sections/footer-section"
 
 const Index = () => {
@@ -20,6 +21,7 @@ const Index = () => {
         <CarouselSection />
         <ScheduleSection />
         <PricingSection id="pricing" />
+        <TrialSection />
         <FooterSection />
       </main>
     </LenisProvider>
