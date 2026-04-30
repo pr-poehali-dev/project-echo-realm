@@ -63,7 +63,6 @@ export function PricingSection({ id }: { id?: string }) {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl md:text-5xl font-serif text-foreground">Выберите свой формат</h2>
-          <p className="text-muted-foreground mt-4 max-w-md mx-auto">Абонемент на любой образ жизни — от тренажёрного зала до полного спа-опыта.</p>
         </motion.div>
 
         {/* Tabs */}
