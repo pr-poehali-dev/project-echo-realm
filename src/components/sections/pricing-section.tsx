@@ -179,7 +179,7 @@ export function PricingSection({ id }: { id?: string }) {
                       {service.options.map((opt, j) => (
                         <li key={j} className="flex items-center justify-between">
                           <span className="text-sm text-muted-foreground">{opt.split("—")[0]}</span>
-                          <span className="font-serif text-foreground">{opt.split("—")[1]}</span>
+                          <span className={`font-serif text-foreground ${j === 0 ? "text-2xl" : "text-lg"}`}>{opt.split("—")[1]}</span>
                         </li>
                       ))}
                     </ul>
