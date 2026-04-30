@@ -54,9 +54,9 @@ export function CustomCursor() {
         animate={{
           width: isHovering ? 40 : 8,
           height: isHovering ? 40 : 8,
-          backgroundColor: isHovering ? "transparent" : "#5B21B6",
+          backgroundColor: isHovering ? "transparent" : "#f97316",
           borderWidth: isHovering ? 1 : 0,
-          borderColor: "#5B21B6",
+          borderColor: "#f97316",
         }}
         transition={{ duration: 0.2 }}
         style={{ borderStyle: "solid" }}
