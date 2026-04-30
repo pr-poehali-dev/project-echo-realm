@@ -78,7 +78,7 @@ export function HeroSection() {
         transition={{ duration: 1, delay: 0.8 }}
       >
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif text-center text-primary mix-blend-difference">
-          Л СПОРТ — <em className="italic">твой клуб</em>.
+          Л СПОРТ <span className="text-foreground">—</span> <em className="italic">твой клуб</em><span className="text-foreground">.</span>
         </h1>
       </motion.div>
 
