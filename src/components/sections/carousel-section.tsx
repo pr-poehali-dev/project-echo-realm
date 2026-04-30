@@ -1,11 +1,11 @@
 import { motion } from "framer-motion"
 
 const portfolioItems = [
-  "https://cdn.poehali.dev/projects/3f089bed-6f9e-4db5-ace3-7b8abfa587c3/bucket/8c95036c-3917-4fe3-978f-fce61d2d6a45.PNG",
-  "https://cdn.poehali.dev/projects/3f089bed-6f9e-4db5-ace3-7b8abfa587c3/bucket/c6fa05f5-15cb-45d4-9cf1-816a701ef99c.PNG",
-  "https://cdn.poehali.dev/projects/3f089bed-6f9e-4db5-ace3-7b8abfa587c3/bucket/92f4a1aa-48d9-4fdc-bde7-9c58010cdd23.PNG",
-  "https://cdn.poehali.dev/projects/3f089bed-6f9e-4db5-ace3-7b8abfa587c3/bucket/5aa55f84-9bf3-4584-b82d-f49a43479a6e.PNG",
-  "https://cdn.poehali.dev/projects/3f089bed-6f9e-4db5-ace3-7b8abfa587c3/bucket/7cb2d06c-ae38-4866-8069-a5b4813ea187.PNG",
+  "https://cdn.poehali.dev/projects/3f089bed-6f9e-4db5-ace3-7b8abfa587c3/bucket/469a3945-1a50-422b-9b5a-200e5278ad94.jpg",
+  "https://cdn.poehali.dev/projects/3f089bed-6f9e-4db5-ace3-7b8abfa587c3/bucket/d0404366-88c7-4604-9eae-ec983ce6edac.jpg",
+  "https://cdn.poehali.dev/projects/3f089bed-6f9e-4db5-ace3-7b8abfa587c3/bucket/8c2208ef-1fe6-4fcb-b384-d6fd155b3bbc.jpg",
+  "https://cdn.poehali.dev/projects/3f089bed-6f9e-4db5-ace3-7b8abfa587c3/bucket/4f304058-eca6-4f0d-aba5-226cd172d7a7.jpg",
+  "https://cdn.poehali.dev/projects/3f089bed-6f9e-4db5-ace3-7b8abfa587c3/bucket/df21e0e0-9d68-49dc-bc56-dafd3adcf36e.jpg",
 ]
 
 export function CarouselSection() {
