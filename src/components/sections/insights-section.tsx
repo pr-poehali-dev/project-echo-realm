@@ -5,24 +5,24 @@ import { ArrowRight } from "lucide-react"
 
 const articles = [
   {
-    title: "Искусство визуального сторителлинга",
-    category: "Дизайн",
-    image: "/visual-storytelling-design-article.jpg",
+    title: "Как начать тренироваться и не бросить",
+    category: "ЗОЖ",
+    image: "https://cdn.poehali.dev/projects/3f089bed-6f9e-4db5-ace3-7b8abfa587c3/files/95b8b3a3-57ca-4e01-a6af-b0bee8e3cc4d.jpg",
   },
   {
-    title: "Как создать личный бренд онлайн",
-    category: "Стратегия",
-    image: "/personal-branding-digital-marketing.jpg",
+    title: "Польза хаммама и сауны после тренировки",
+    category: "СПА",
+    image: "https://cdn.poehali.dev/projects/3f089bed-6f9e-4db5-ace3-7b8abfa587c3/files/f465120d-4ff1-449c-ab46-cd83fefba9b6.jpg",
   },
   {
-    title: "Тренды типографики 2025",
-    category: "Типографика",
-    image: "/typography-trends-modern-fonts.jpg",
+    title: "Панорамный зал: тренировки с видом на Тюмень",
+    category: "Клуб",
+    image: "https://cdn.poehali.dev/projects/3f089bed-6f9e-4db5-ace3-7b8abfa587c3/files/ff70a420-8f9b-4a0a-bb68-54c1885ef321.jpg",
   },
   {
-    title: "Минимализм в дизайне портфолио",
-    category: "Вдохновение",
-    image: "/placeholder.svg?height=200&width=300",
+    title: "Групповые программы: найди своё направление",
+    category: "Тренировки",
+    image: "https://cdn.poehali.dev/projects/3f089bed-6f9e-4db5-ace3-7b8abfa587c3/files/95b8b3a3-57ca-4e01-a6af-b0bee8e3cc4d.jpg",
   },
 ]
 
@@ -43,7 +43,7 @@ export function InsightsSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          Статьи
+          Полезное
         </motion.p>
 
         <div className="divide-y divide-border">

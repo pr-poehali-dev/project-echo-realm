@@ -3,18 +3,18 @@ import { Check } from "lucide-react"
 
 const plans = [
   {
-    name: "Старт",
-    price: "1 200",
+    name: "Базовый",
+    price: "3 500",
     period: " руб/мес",
-    description: "Для личного портфолио",
-    features: ["5 страниц", "Свой домен", "Базовая аналитика", "Поддержка по email"],
+    description: "Тренажёрный зал + раздевалка",
+    features: ["Безлимитные посещения", "Тренажёрный зал", "Раздевалка с душем", "Консультация тренера"],
   },
   {
-    name: "Про",
-    price: "2 900",
+    name: "Премиум",
+    price: "6 500",
     period: " руб/мес",
-    description: "Для растущих авторов",
-    features: ["Безлимит страниц", "Приоритет поддержки", "Расширенная аналитика", "Свой брендинг", "Работа в команде"],
+    description: "Полный доступ к клубу",
+    features: ["Безлимитные посещения", "Тренажёрный зал", "Групповые программы", "СПА-зона: бассейн, сауна, хаммам", "Персональные тренировки"],
     popular: true,
   },
 ]
@@ -29,8 +29,8 @@ export function PricingSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl md:text-5xl font-serif text-foreground">Простые и понятные цены</h2>
-          <p className="text-muted-foreground mt-4 max-w-md mx-auto">Начните бесплатно, платите когда готовы.</p>
+          <h2 className="text-3xl md:text-5xl font-serif text-foreground">Выберите свой формат</h2>
+          <p className="text-muted-foreground mt-4 max-w-md mx-auto">Абонемент на любой образ жизни — от тренажёрного зала до полного спа-опыта.</p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
@@ -75,7 +75,7 @@ export function PricingSection() {
                     : "bg-secondary text-foreground hover:bg-accent/30"
                 }`}
               >
-                Начать
+                Оформить абонемент
               </button>
             </motion.div>
           ))}

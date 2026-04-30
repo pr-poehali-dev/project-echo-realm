@@ -1,12 +1,12 @@
 import { motion } from "framer-motion"
 
 const portfolioItems = [
-  "/portfolio-website-design-preview-modern.jpg",
-  "/photography-portfolio-website-clean.jpg",
-  "/architecture-firm-website-minimal.jpg",
-  "/design-agency-portfolio-dark-theme.jpg",
-  "/artist-portfolio-website-creative.jpg",
-  "/writer-portfolio-website-elegant.jpg",
+  "https://cdn.poehali.dev/projects/3f089bed-6f9e-4db5-ace3-7b8abfa587c3/files/ff70a420-8f9b-4a0a-bb68-54c1885ef321.jpg",
+  "https://cdn.poehali.dev/projects/3f089bed-6f9e-4db5-ace3-7b8abfa587c3/files/95b8b3a3-57ca-4e01-a6af-b0bee8e3cc4d.jpg",
+  "https://cdn.poehali.dev/projects/3f089bed-6f9e-4db5-ace3-7b8abfa587c3/files/f465120d-4ff1-449c-ab46-cd83fefba9b6.jpg",
+  "https://cdn.poehali.dev/projects/3f089bed-6f9e-4db5-ace3-7b8abfa587c3/files/ff70a420-8f9b-4a0a-bb68-54c1885ef321.jpg",
+  "https://cdn.poehali.dev/projects/3f089bed-6f9e-4db5-ace3-7b8abfa587c3/files/95b8b3a3-57ca-4e01-a6af-b0bee8e3cc4d.jpg",
+  "https://cdn.poehali.dev/projects/3f089bed-6f9e-4db5-ace3-7b8abfa587c3/files/f465120d-4ff1-449c-ab46-cd83fefba9b6.jpg",
 ]
 
 export function CarouselSection() {
@@ -22,7 +22,7 @@ export function CarouselSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          Создано авторами для авторов.
+          В самом сердце Тюмени, на стадионе «Геолог».
         </motion.h2>
       </div>
 
