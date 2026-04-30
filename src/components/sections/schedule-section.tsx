@@ -19,7 +19,7 @@ type Schedule = {
 const schedule: Schedule = {
   "Пн": [
     { time: "13:05", name: "Здоровая спина", trainer: "Рябухина Алина", type: "fitness" },
-    { time: "18:00", name: "Зумба*", trainer: "Рябкова Александра", type: "fitness" },
+    { time: "18:00", name: "Зумба", trainer: "Рябкова Александра", type: "fitness" },
     { time: "19:00", name: "Круговая тренировка", trainer: "Рябкова Александра", type: "fitness" },
   ],
   "Вт": [
@@ -39,7 +39,7 @@ const schedule: Schedule = {
     { time: "18:00", name: "Вело-тренировка 45'+ растяжка", trainer: "Палецких Светлана", type: "cycle" },
   ],
   "Сб": [
-    { time: "11:00", name: "Зумба*", trainer: "Рябкова Александра", type: "fitness" },
+    { time: "11:00", name: "Зумба", trainer: "Рябкова Александра", type: "fitness" },
     { time: "12:00", name: "Пресс 45'+ растяжка", trainer: "Рябкова Александра", type: "fitness" },
   ],
   "Вс": [

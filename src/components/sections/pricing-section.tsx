@@ -7,6 +7,7 @@ const subscriptions = [
     name: "Выносливость",
     description: "Тренажёрный зал + групповые программы",
     prices: [
+      { label: "Разовое посещение", price: "1 000 ₽" },
       { label: "1 месяц", price: "3 000 ₽" },
       { label: "6 месяцев", price: "15 000 ₽" },
       { label: "12 месяцев", price: "25 000 ₽" },
@@ -21,6 +22,7 @@ const subscriptions = [
     name: "Чемпион",
     description: "Полный доступ: зал + СПА + групповые",
     prices: [
+      { label: "Разовое посещение", price: "2 000 ₽" },
       { label: "1 месяц", price: "6 000 ₽" },
       { label: "6 месяцев", price: "30 000 ₽" },
       { label: "12 месяцев", price: "50 000 ₽" },
