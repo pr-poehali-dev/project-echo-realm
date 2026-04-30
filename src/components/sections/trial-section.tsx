@@ -40,7 +40,7 @@ export function TrialSection() {
   }
 
   return (
-    <section className="bg-orange-50 px-6 py-24" style={{background: "linear-gradient(135deg, #fff4ee 0%, #ffe8d6 100%)"}}>
+    <section className="bg-secondary px-6 py-24">
       <div className="max-w-5xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           {/* Left */}
