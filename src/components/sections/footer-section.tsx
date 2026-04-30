@@ -54,7 +54,7 @@ export function FooterSection() {
               transition={{ delay: 0.2 }}
             >
               <a
-                href="https://maps.yandex.ru/?text=Тюмень+ул.+Коммуны+22"
+                href="https://yandex.ru/maps/?text=Тюмень+ул+Коммуны+22к1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-start gap-2 text-muted-foreground hover:text-foreground transition-colors text-sm"
