@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { motion } from "framer-motion"
 import { ArrowRight } from "lucide-react"
+import Icon from "@/components/ui/icon"
 
 const footerLinks = [
   { label: "О клубе", href: "#" },
@@ -48,6 +49,33 @@ export function FooterSection() {
                 </motion.a>
               ))}
             </nav>
+
+            <motion.div
+              className="mt-8 flex flex-col gap-3"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.2 }}
+            >
+              <a
+                href="https://maps.yandex.ru/?text=Тюмень+ул.+Коммуны+22"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-start gap-2 text-muted-foreground hover:text-foreground transition-colors text-sm"
+                data-clickable
+              >
+                <Icon name="MapPin" size={16} className="mt-0.5 text-primary flex-shrink-0" />
+                г. Тюмень, ул. Коммуны 22, стр. 1, 3 этаж
+              </a>
+              <a
+                href="tel:+73452518400"
+                className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors text-sm"
+                data-clickable
+              >
+                <Icon name="Phone" size={16} className="text-primary flex-shrink-0" />
+                +7 (3452) 518-400
+              </a>
+            </motion.div>
           </div>
 
           {/* Email signup */}
