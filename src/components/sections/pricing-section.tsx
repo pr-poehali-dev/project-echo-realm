@@ -4,7 +4,7 @@ import { Check } from "lucide-react"
 const plans = [
   {
     name: "Базовый",
-    price: "3 500",
+    price: "3 000",
     period: " руб/мес",
     description: "Тренажёрный зал + раздевалка",
     features: ["Безлимитные посещения", "Тренажёрный зал", "Раздевалка с душем", "Консультация тренера"],
