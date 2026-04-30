@@ -1,6 +1,4 @@
-import { useState } from "react"
 import { motion } from "framer-motion"
-import { ArrowRight } from "lucide-react"
 import Icon from "@/components/ui/icon"
 
 const footerLinks = [
@@ -11,8 +9,6 @@ const footerLinks = [
 ]
 
 export function FooterSection() {
-  const [email, setEmail] = useState("")
-
   return (
     <footer className="relative bg-background px-6 py-24 overflow-hidden">
       {/* Gradient blob */}
@@ -111,26 +107,7 @@ export function FooterSection() {
             </motion.div>
           </div>
 
-          {/* Email signup */}
-          <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
-            <p className="text-muted-foreground text-sm mb-4">Оставьте email — пришлём специальное предложение на первый месяц.</p>
-            <form onSubmit={(e) => e.preventDefault()} className="flex gap-2">
-              <input
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="Введите email"
-                className="flex-1 bg-secondary border-0 rounded-lg px-4 py-3 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary"
-              />
-              <button
-                type="submit"
-                className="bg-foreground text-background p-3 rounded-lg hover:bg-foreground/90 transition-colors"
-                data-clickable
-              >
-                <ArrowRight className="w-5 h-5" />
-              </button>
-            </form>
-          </motion.div>
+
         </div>
 
         <div className="mt-16 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
