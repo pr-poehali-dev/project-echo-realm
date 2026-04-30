@@ -75,6 +75,29 @@ export function FooterSection() {
                 <Icon name="Phone" size={16} className="text-primary flex-shrink-0" />
                 +7 (3452) 518-400
               </a>
+
+              <div className="flex gap-3 mt-2">
+                <a
+                  href="https://vk.com/lsport72"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 bg-secondary hover:bg-primary hover:text-primary-foreground text-muted-foreground transition-colors text-sm px-4 py-2 rounded-lg"
+                  data-clickable
+                >
+                  <Icon name="Users" size={15} />
+                  ВКонтакте
+                </a>
+                <a
+                  href="https://max.ru/join/FH1Vd3R3UogZ4_DnXvg_5PWyx9IrfKZf4SgJ9Ub7I4Y"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 bg-secondary hover:bg-primary hover:text-primary-foreground text-muted-foreground transition-colors text-sm px-4 py-2 rounded-lg"
+                  data-clickable
+                >
+                  <Icon name="MessageCircle" size={15} />
+                  МАХ
+                </a>
+              </div>
             </motion.div>
           </div>
 
