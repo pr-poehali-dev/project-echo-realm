@@ -97,6 +97,16 @@ export function FooterSection() {
                   <Icon name="MessageCircle" size={15} />
                   МАХ
                 </a>
+                <a
+                  href="https://t.me/Lsport72"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 bg-secondary hover:bg-primary hover:text-primary-foreground text-muted-foreground transition-colors text-sm px-4 py-2 rounded-lg"
+                  data-clickable
+                >
+                  <Icon name="Send" size={15} />
+                  Telegram
+                </a>
               </div>
             </motion.div>
           </div>
