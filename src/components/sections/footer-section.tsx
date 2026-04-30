@@ -26,7 +26,7 @@ export function FooterSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
             >
-              Л СПОРТ.
+              Л СПОРТ
             </motion.h2>
 
             <nav className="flex flex-wrap gap-6 mt-8">
