@@ -38,13 +38,13 @@ export function CarouselSection() {
           {items.map((src, i) => (
             <div
               key={i}
-              className="flex-shrink-0 w-[300px] md:w-[400px] rounded-xl overflow-hidden shadow-2xl"
+              className="flex-shrink-0 w-[300px] md:w-[400px] h-[220px] md:h-[280px] rounded-xl overflow-hidden shadow-2xl"
               data-clickable
             >
               <img
                 src={src || "/placeholder.svg"}
-                alt={`Пример портфолио ${(i % portfolioItems.length) + 1}`}
-                className="w-full h-auto"
+                alt={`Фото клуба ${(i % portfolioItems.length) + 1}`}
+                className="w-full h-full object-cover"
               />
             </div>
           ))}
