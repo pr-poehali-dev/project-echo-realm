@@ -34,7 +34,7 @@ export function MapSection() {
             transition={{ duration: 0.6 }}
           >
             <iframe
-              src="https://yandex.ru/map-widget/v1/?ll=68.96560%2C57.14970&z=17&pt=68.96560,57.14970,pm2orangel&text=Тюмень+ул+Коммуны+22к1"
+              src="https://yandex.ru/map-widget/v1/?ll=65.515858%2C57.161605&z=17&pt=65.515858,57.161605,pm2orangel"
               width="100%"
               height="420"
               style={{ border: 0, display: "block" }}
@@ -89,7 +89,7 @@ export function MapSection() {
             </div>
 
             <a
-              href="https://yandex.ru/maps/?text=Тюмень+ул+Коммуны+22к1&ll=68.96560,57.14970&z=17"
+              href="https://yandex.ru/maps/?ll=65.515858,57.161605&z=17&pt=65.515858,57.161605"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full py-3 px-6 rounded-xl font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-colors text-center text-sm"
