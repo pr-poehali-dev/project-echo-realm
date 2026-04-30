@@ -6,6 +6,8 @@ const portfolioItems = [
   "https://cdn.poehali.dev/projects/3f089bed-6f9e-4db5-ace3-7b8abfa587c3/bucket/8c2208ef-1fe6-4fcb-b384-d6fd155b3bbc.jpg",
   "https://cdn.poehali.dev/projects/3f089bed-6f9e-4db5-ace3-7b8abfa587c3/bucket/4f304058-eca6-4f0d-aba5-226cd172d7a7.jpg",
   "https://cdn.poehali.dev/projects/3f089bed-6f9e-4db5-ace3-7b8abfa587c3/bucket/df21e0e0-9d68-49dc-bc56-dafd3adcf36e.jpg",
+  "https://cdn.poehali.dev/projects/3f089bed-6f9e-4db5-ace3-7b8abfa587c3/bucket/b7224a3a-2814-4a5e-a9bd-94458f3c34f7.jpg",
+  "https://cdn.poehali.dev/projects/3f089bed-6f9e-4db5-ace3-7b8abfa587c3/bucket/bd432428-1944-4088-a69a-23ed9f3bf7dd.jpg",
 ]
 
 export function CarouselSection() {
