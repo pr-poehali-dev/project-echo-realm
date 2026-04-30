@@ -3,8 +3,8 @@ import { motion, useScroll, useTransform } from "framer-motion"
 
 const images = [
   "https://cdn.poehali.dev/projects/3f089bed-6f9e-4db5-ace3-7b8abfa587c3/bucket/94271094-e28b-4af6-b422-f824fb8cca31.jpg",
-  "https://cdn.poehali.dev/projects/3f089bed-6f9e-4db5-ace3-7b8abfa587c3/bucket/09162142-b0c0-4a76-aedf-abd38c5aec0c.jpg",
   "https://cdn.poehali.dev/projects/3f089bed-6f9e-4db5-ace3-7b8abfa587c3/bucket/5abbe879-a1f5-43a9-a616-06ad983c89ce.jpg",
+  "https://cdn.poehali.dev/projects/3f089bed-6f9e-4db5-ace3-7b8abfa587c3/bucket/09162142-b0c0-4a76-aedf-abd38c5aec0c.jpg",
 ]
 
 export function HeroSection() {
