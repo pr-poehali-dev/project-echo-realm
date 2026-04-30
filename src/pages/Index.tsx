@@ -20,7 +20,7 @@ const Index = () => {
         <ShowcaseSection />
         <CarouselSection />
         <InsightsSection />
-        <PricingSection />
+        <PricingSection id="pricing" />
         <FooterSection />
       </main>
     </LenisProvider>

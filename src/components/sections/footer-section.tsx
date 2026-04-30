@@ -7,7 +7,7 @@ const footerLinks = [
   { label: "О клубе", href: "#" },
   { label: "Программы", href: "#" },
   { label: "СПА", href: "#" },
-  { label: "Тарифы", href: "#" },
+  { label: "Тарифы", href: "#pricing" },
 ]
 
 export function FooterSection() {
