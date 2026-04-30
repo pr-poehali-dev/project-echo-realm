@@ -5,7 +5,7 @@ import Icon from "@/components/ui/icon"
 
 const footerLinks = [
   { label: "О клубе", href: "#about" },
-  { label: "Программы", href: "#" },
+  { label: "Программы", href: "#schedule" },
   { label: "СПА", href: "#" },
   { label: "Тарифы", href: "#pricing" },
 ]
